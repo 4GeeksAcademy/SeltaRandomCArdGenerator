@@ -37,11 +37,17 @@ body {
   }
 }
 
-.card .♦,
-.card .♥ {
+.card.♦,
+.card.♥ {
   color: red;
 }
-.card .♠,
-.card .♣ {
+.card.♠,
+.card.♣ {
   color: black;
+}
+
+button {
+  margin-top: 5px;
+  border-radius: 15px;
+  border: 1px solid black;
 }
