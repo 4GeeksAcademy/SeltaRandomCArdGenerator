@@ -22,15 +22,20 @@
       </div>
       <div class="button"><button>Click here for new card!</button></div>
       <div class="inputs">
-        <div class="card-with">
-          <label for="card-with">Width:</label>
-          <input type="text" name="card-with" />
+        <div class="card-width">
+          <label for="card-width">Width:</label>
+          <input type="number" name="card-width" id="card-width" value="" />
         </div>
         <div class="card-height">
           <label for="card-height">Height:</label>
-          <input type="text" name="card-height" />
+          <input type="number" name="card-height" id="card-height" value="" />
         </div>
-        <input type="submit" value="Submit" id="bntSubmit" />
+        <input
+          type="submit"
+          value="Submit"
+          id="bntSubmit"
+          onclick="changeSize()"
+        />
       </div>
     </div>
   </body>
